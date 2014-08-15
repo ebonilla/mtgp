@@ -4,7 +4,7 @@
 ## Author  
 Edwin V. Bonilla
 
-## Requirements:
+## Requirements
 Yo need to have the gpml matlab package in your matlab path. You can download it at
 http://gaussianprocess.org/gpml/code/matlab/release/gpml-matlab-v1.3-2006-09-08.tar.gz
 Note that this is an old release of the gpml package as newer versions do not seem to support backward compatibility and MTGP was based on the version dated as 2006-03-29. 
@@ -20,6 +20,6 @@ Note that this is an old release of the gpml package as newer versions do not se
 
 ## References
 [1] Edwin V. Bonilla, Kian Ming A. Chai, and Christopher K. I. Williams.
-_Multi-task Gaussian Process Prediction_
+_Multi-task Gaussian Process Prediction_.
 In Advances in Neural Information Processing Systems 20: NIPS'08.
 

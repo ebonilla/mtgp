@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Mtgp : Multi-task Gaussian Process Package">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Mtgp</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/ebonilla/mtgp">View on GitHub</a>
+
+          <h1 id="project_title">Mtgp</h1>
+          <h2 id="project_tagline">Multi-task Gaussian Process Package</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/ebonilla/mtgp/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/ebonilla/mtgp/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="multi-task-gaussian-process-mtgp-package" class="anchor" href="#multi-task-gaussian-process-mtgp-package" aria-hidden="true"><span class="octicon octicon-link"></span></a>Multi-task Gaussian process (MTGP) package.</h1>
+
+<p><strong>Implements the multi-task model of Bonilla et al [1]</strong></p>
+
+<h2>
+<a id="author" class="anchor" href="#author" aria-hidden="true"><span class="octicon octicon-link"></span></a>Author</h2>
+
+<p>Edwin V. Bonilla</p>
+
+<h2>
+<a id="requirements" class="anchor" href="#requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Requirements</h2>
+
+<p>Yo need to have the gpml matlab package in your matlab path. You can download it at
+<a href="http://gaussianprocess.org/gpml/code/matlab/release/gpml-matlab-v1.3-2006-09-08.tar.gz">http://gaussianprocess.org/gpml/code/matlab/release/gpml-matlab-v1.3-2006-09-08.tar.gz</a>
+Note that this is an old release of the gpml package as newer versions do not seem to support backward compatibility and MTGP was based on the version dated as 2006-03-29. </p>
+
+<h2>
+<a id="main-contents" class="anchor" href="#main-contents" aria-hidden="true"><span class="octicon octicon-link"></span></a>Main Contents</h2>
+
+<ol>
+<li>learn_mtgp.m : Learns an MTGP model. It uses the minimize function 
+              included in the gpml package.</li>
+<li>nmargl_mtgp  : Marginal likelihood and its gradients for an MTGP model</li>
+<li>alpha_mtgp.m :  Computes data structures for predictions in an MTGP model</li>
+<li>predict_mtgp_all_tasks.m: Makes predictions for all tasks in an MTGP model</li>
+<li>toy_example.m: A toy example of how to use the package </li>
+</ol>
+
+<h2>
+<a id="references" class="anchor" href="#references" aria-hidden="true"><span class="octicon octicon-link"></span></a>References</h2>
+
+<p>[1] Edwin V. Bonilla, Kian Ming A. Chai, and Christopher K. I. Williams.
+<em>Multi-task Gaussian Process Prediction</em>.
+In Advances in Neural Information Processing Systems 20: NIPS'08.</p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Mtgp maintained by <a href="https://github.com/ebonilla">ebonilla</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>

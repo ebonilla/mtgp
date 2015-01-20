@@ -1,4 +1,4 @@
-# Multi-task Gaussian process (MTGP) package. 
+# Multi-task Gaussian process (MTGP)
 **Implements the multi-task model of Bonilla et al [1]**
 
 ## Author  
